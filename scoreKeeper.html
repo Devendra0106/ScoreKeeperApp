@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Score Keeper</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+	<link rel="stylesheet" href="scoreKeeper.css">
+</head>
+
+<body>
+	<div class="section">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-half is-offset-one-quarter">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-2by1">
+								<img src="https://wallpapercave.com/wp/wp1961370.jpg" alt="">
+							</figure>
+						</div>
+						<header class="card-header">
+							<p class="card-header-title">
+								Score Keeper Game
+							</p>
+						</header>
+						<div class="card-content">
+							<div class="content">
+								<div class="box">
+									<h3 id="notification">Player1 and Player2 are playing</h3>
+								</div>
+								<div class="p1p2">
+									<div class="title is-3">
+										P1: <span id="p1">0</span> to P2: <span id="p2">0</span>
+									</div>
+								</div>
+								<p class="subtitle">Set Maximum Score to win</p>
+								<label class="label is-large is-inline" for="rounds">Playing To </label>
+								<div class="select is-rounded">
+									<select name="" id="rounds">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<footer class="card-footer mb-2">
+							<button id="one" class="is-primary is-rounded button card-footer-item">Player one</button>
+							<button id="two" class="is-info is-rounded button card-footer-item">Player two</button>
+							<button id="rs" class="is-danger is-rounded button card-footer-item">Reset</button>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<script type="text/javascript" src="scoreKeeper.js"></script>
+</body>
+
+</html>

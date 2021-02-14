@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+.card-header-title{
+    text-align: center;
+}
+
+.p1p2{
+    border-left: 5px solid rgb(45, 223, 45);
+    border-right: 5px solid rgb(45, 223, 45);
+    padding: auto;
+    margin-bottom: 5px;
+    justify-content: space-around
+}
