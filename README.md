@@ -8,7 +8,7 @@ This project is created with
 3. Javascript
 
 ## Framework
-Bulma(https://bulma.io/)
+[Bulma](https://bulma.io/)
 
 ## To run this project
 * Download Project
